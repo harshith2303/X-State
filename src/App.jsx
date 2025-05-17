@@ -89,7 +89,7 @@ export default function App() {
 
       {selectedCity && selectedState && selectedCountry && (
         <h3>
-          You Selected {selectedCity}, {selectedState}, {selectedCountry}
+          You selected {selectedCity}, {selectedState}, {selectedCountry}
         </h3>
       )}
     </div>
