@@ -89,7 +89,7 @@ export default function App() {
 
       {selectedCity && selectedState && selectedCountry && (
         <h3>
-          You selected <h2>{selectedCity},</h2> <h4 style={{color:"grey"}}>{selectedState}, {selectedCountry}</h4>
+          You selected {selectedCity}, {selectedState}, {selectedCountry}
         </h3>
       )}
     </div>
